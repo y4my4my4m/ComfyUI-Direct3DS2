@@ -1,0 +1,22 @@
+[project]
+name = "comfyui-direct3ds2"
+version = "0.1.0"
+description = "Direct3D-S2 plugin for ComfyUI"
+authors = [{ name = "y4my4my4m" }]
+license = "MIT"
+readme = "README.md"
+dependencies = [
+    "huggingface_hub",
+    "transformers==4.40.2",
+    "diffusers",
+    "flash-attn",
+    "pymeshfix",
+    "utils3d",
+    "pyvista",
+    "igraph",
+    "git+https://github.com/mit-han-lab/torchsparse.git"
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"

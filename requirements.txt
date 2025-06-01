@@ -1,0 +1,15 @@
+torch>=2.1.0
+trimesh
+tqdm
+einops
+numpy
+transformers==4.40.2
+diffusers
+triton==3.1.0
+flash-attn
+huggingface_hub
+pymeshfix
+utils3d
+pyvista
+igraph
+git+https://github.com/mit-han-lab/torchsparse.git

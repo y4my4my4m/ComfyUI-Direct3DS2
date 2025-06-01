@@ -1,0 +1,34 @@
+{
+    "nodes": [
+        {
+            "id": 1,
+            "type": "LoadImage",
+            "pos": [0, 0],
+            "label": "Load Input Image",
+            "inputs": {
+                "image": "example_image.png"
+            }
+        },
+        {
+            "id": 2,
+            "type": "Direct3DS2Node",
+            "pos": [300, 0],
+            "label": "Generate Mesh",
+            "inputs": {
+                "image": [1, 0],
+                "sdf_resolution": 512,
+                "remesh": "False",
+                "output_path": "output.obj"
+            }
+        },
+        {
+            "id": 3,
+            "type": "ShowText",
+            "pos": [600, 0],
+            "label": "Show Mesh Path",
+            "inputs": {
+                "text": [2, 0]
+            }
+        }
+    ]
+}

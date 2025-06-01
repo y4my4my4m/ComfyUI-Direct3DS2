@@ -1,4 +1,3 @@
-torch>=2.1.0
 trimesh
 tqdm
 einops

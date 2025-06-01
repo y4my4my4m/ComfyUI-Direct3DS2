@@ -1,5 +1,7 @@
 # ComfyUI-Direct3DS2
 
+## WIP - Doesnt work yet
+
 A ComfyUI plugin for generating 3D meshes from 2D images using [Direct3D-S2](https://github.com/DreamTechAI/Direct3D-S2), a gigascale 3D generation model developed by DreamTechAI.
 
 ![example](https://raw.githubusercontent.com/DreamTechAI/Direct3D-S2/main/assets/test/13.png)
